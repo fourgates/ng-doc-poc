@@ -1,0 +1,13 @@
+[
+  {
+    "breadcrumbs": [
+      "Installation"
+    ],
+    "pageType": "guide",
+    "title": "Installation",
+    "section": "Installation",
+    "route": "/installation",
+    "fragment": "installation",
+    "content": "It's time to write some awesome docs!"
+  }
+]
