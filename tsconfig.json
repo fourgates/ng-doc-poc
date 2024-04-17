@@ -2,6 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "@ng-doc/generated": [
         "./ng-doc/ng-doc/index.ts"
