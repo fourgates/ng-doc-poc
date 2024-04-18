@@ -5,9 +5,14 @@ import { ChangeDetectionStrategy, Component, input } from "@angular/core";
     standalone: true,
     changeDetection: ChangeDetectionStrategy.OnPush,
     template: `
-        <button>{{buttonText()}}</button>
+        <button (click)="onClick()">{{buttonText()}}</button>
     `
 })
 export class LuiButtonComponent{
+    
     buttonText = input<String>("Button");
+    
+    onClick(): void {
+        console.log('Hello world');
+      }    
 }
