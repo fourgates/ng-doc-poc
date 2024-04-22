@@ -1,5 +1,5 @@
 import {NgDocPage} from '@ng-doc/core';
-import { LuiButtonComponent } from '../shared/lui-button/lui-button.component';
+import LuiButtonComponent from '../shared/lui-button/lui-button.component';
 import { NgDocTagComponent } from '@ng-doc/ui-kit';
 
 const InstallationPage: NgDocPage = {

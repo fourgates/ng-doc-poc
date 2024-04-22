@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component, input } from "@angular/core";
         <button (click)="onClick()">{{buttonText()}}</button>
     `
 })
-export class LuiButtonComponent{
+export default class LuiButtonComponent{
     
     buttonText = input<String>("Button");
     
